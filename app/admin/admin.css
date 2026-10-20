@@ -1,0 +1,22 @@
+.adm{max-width:860px;margin:0 auto;padding:28px 18px 60px}
+.adm h1{font-size:clamp(28px,5vw,38px);margin:0}
+.adm-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.adm-actions{display:flex;gap:8px;flex-wrap:wrap}
+.adm .btn{padding:9px 18px;font-size:13px}
+.adm-login{max-width:380px;margin:12vh auto 0;text-align:center}
+.adm-login input{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;margin:14px 0 10px}
+.adm .muted{color:var(--muted)}
+.adm-err{color:#b3261e;font-size:14px;margin:8px 0}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.stat{border:1px solid var(--line);border-radius:14px;padding:12px 18px;background:#fff}
+.stat b{font-size:28px;font-weight:600;color:var(--accent);margin-right:8px}
+.stat span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.search{flex:1;min-width:180px;padding:10px 16px;border:1px solid var(--line);border-radius:99px;font:inherit}
+.mcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px}
+.mhead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.mhead b{font-size:17px}
+.mhead small{color:var(--muted);font-size:12px}
+.mtext{margin:10px 0 12px;white-space:pre-wrap;word-break:break-word;line-height:1.7}
+.linkbtn{background:none;border:0;color:#b3261e;cursor:pointer;font:500 13px Inter,sans-serif;padding:0;text-decoration:underline}
+.overlay.modal .box.confirm{max-width:400px}
+.empty{text-align:center;color:var(--muted);padding:40px 10px;border:1px dashed var(--line);border-radius:16px}
