@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { API_URL, CONFIG } from "../config";
 import "./admin.css";
 
-const TOKEN_KEY = "wedding_admin_token";
+const TOKEN_KEY = "Wedding";
 
 async function adminFetch(path, token, options = {}) {
   const res = await fetch(`${API_URL}/api/admin/${path}`, {
